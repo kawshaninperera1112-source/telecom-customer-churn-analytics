@@ -11,7 +11,7 @@ This project focuses on analyzing customer churn for a telecommunications compan
 
 ## 🛠️ Tools & Technologies Used
 * **Power BI Desktop:** For Data Cleaning (Power Query), Data Modeling, DAX Measures, and Interactive Dashboard Design.
-* **Python (Google Colab):** For advanced statistical analysis using `pandas` and `scipy.stats`.
+* **Python (Google Colab):** For advanced statistical analysis using `pandas`, `numpy` and `scipy.stats`.
 
 ---
 
