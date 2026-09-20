@@ -16,7 +16,7 @@ This project focuses on analyzing customer churn for a telecommunications compan
 
 ## 📊 Key Business Insights (From Power BI)
 * **Contract Type:** Customers on a **Month-to-month** contract are at the highest risk, showing a critical churn rate of **42.71%**.
-* **Payment Method:** Customers using **Electronic Checks** exhibit a significantly higher churn probability compared to automated payment methods.
+* **Payment Method:** Customers using **Electronic Checks** churn at 45.29%, compared to 15-19% for other payment methods.
 * **Internet Service:** **Fiber Optic** subscribers experience higher churn rates, indicating potential service or pricing dissatisfaction.
 
 ---
@@ -44,12 +44,6 @@ Overall churn rate: 26.54% (n = 7,043)
 electronic check customers churn at 45.29%, roughly 1.7x the overall rate.
 This shows association, not causation, since payment method may overlap with
 other factors such as contract type.
-
-### Results:
-* **Chi-Square Statistic:** 648.14
-* **P-Value:** $3.68 \times 10^{-140}$
-
-Since the **P-Value is extremely close to 0 ($p < 0.05$)**, we reject the Null Hypothesis. This **statistically proves** that the payment method is a highly significant driver of customer churn. 
 
 ---
 
