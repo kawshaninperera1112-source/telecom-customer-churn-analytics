@@ -21,8 +21,29 @@ This project focuses on analyzing customer churn for a telecommunications compan
 
 ---
 
-## 🔬 Statistical Validation (Chi-Square Test)
-To prove that the relationship between a customer's **Payment Method** and **Churn** is real and not just a random coincidence, a **Chi-Square Test of Independence** was conducted in Python.
+## 🔬 Statistical Validation (Chi-Square Test of Independence)
+
+**H0:** Payment method and churn are independent.
+**H1:** Payment method and churn are associated.
+
+| Payment Method | Churn Rate |
+|---|---|
+| Electronic check | 45.29% |
+| Mailed check | 19.11% |
+| Bank transfer (automatic) | 16.71% |
+| Credit card (automatic) | 15.24% |
+
+Overall churn rate: 26.54% (n = 7,043)
+
+**Results:**
+- χ²(3) = 648.14, p < 0.001
+- Cramér's V = 0.303 (moderate association)
+- All expected cell counts > 5 (minimum = 403.9), so the test assumptions hold.
+
+**Conclusion:** We reject H0. Payment method is significantly associated with churn:
+electronic check customers churn at 45.29%, roughly 1.7x the overall rate.
+This shows association, not causation, since payment method may overlap with
+other factors such as contract type.
 
 ### Results:
 * **Chi-Square Statistic:** 648.14
