@@ -5,6 +5,7 @@
 
 ## 📌 Project Overview
 This project focuses on analyzing customer churn for a telecommunications company to identify the key factors driving customer defection. It provides data-driven insights to help the business improve its customer retention strategies. The project combines interactive data visualization with rigorous statistical testing to ensure the insights are mathematically sound.
+
 **Dataset:** [Telco Customer Churn] (https://www.kaggle.com/search?q=telecom-data-set), 7,043 customers.
 ---
 
