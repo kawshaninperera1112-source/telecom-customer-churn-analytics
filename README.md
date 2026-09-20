@@ -1,5 +1,8 @@
 # Telecom Customer Churn & Retention Analytics with Statistical Validation
 
+## 📈 Dashboard Preview
+![Telecom Churn Dashboard](telecom_dashboard.png)
+
 ## 📌 Project Overview
 This project focuses on analyzing customer churn for a telecommunications company to identify the key factors driving customer defection. It provides data-driven insights to help the business improve its customer retention strategies. The project combines interactive data visualization with rigorous statistical testing to ensure the insights are mathematically sound.
 
